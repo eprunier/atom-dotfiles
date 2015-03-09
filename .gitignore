@@ -6,3 +6,4 @@ storage
 compile-cache
 nohup.out
 .apm 
+.apmrc 
