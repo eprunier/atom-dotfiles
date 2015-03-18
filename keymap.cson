@@ -1,14 +1,8 @@
 'atom-text-editor:not([mini])':
+  'ctrl-shift-f': 'editor:auto-indent'
+  'ctrl-shift-/': 'editor:toggle-line-comments'
   'ctrl-shift-down': 'editor:duplicate-lines'
   'ctrl-d': 'editor:delete-line'
-  'ctrl-alt-[': 'unset!'
-  'ctrl-alt-]': 'unset!'
 
 'atom-workspace':
   'ctrl-shift-t': 'tree-view:toggle'
-
-'atom-workspace atom-text-editor':
-  'ctrl-shift-f': 'editor:auto-indent'
-  'ctrl-shift-/': 'editor:toggle-line-comments'
-  'ctrl-alt-[': 'unset!'
-  'ctrl-alt-]': 'unset!'
